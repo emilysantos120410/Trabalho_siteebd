@@ -1,37 +1,73 @@
+ <!--Inserir 4 Homepage e em cada página colocar 1 mapa, plano de fundo, 1 imagem e texto através do flexbox. 
+
+Menu e footer em todas as páginas iguais através do css externo. 
+
+Fazer pontos turísticos de sjc-->
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Bootstrap 101 Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<html lang="pt-br">
 
-    <div class="navbar">
-      <div class="navbar-inner">
-        <a class="brand" href="#">Title</a>
-        <ul class="nav">
-          <li class="active"><a href="#"><i class="icon-search"></i></a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-        </ul>
-      </div>
+<head>
+  <title>Turismo SJC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css_turism.css"> 
+  <script src="css_turism.css"></script>  
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="title">
+          <b>Turismo - São José dos Campos</b>
+        </div>
+      </header>
+  <nav>
+    <img src="img_tur/background.jpg" alt="" width="1900" height="200">
+  </nav>
+
+  <aside>
+
+    <div class="container">
+      <div class="item1"><div class="caixa-es">
+      <h1 class="texto-esquerda">Turismo em São José dos Campos</h1>
+      <h3 class="texto-esquerda">São José dos Campos é um município brasileiro no interior do estado de São Paulo. Está situado no Vale do Paraíba Paulista, a leste da capital do estado. É sede da Região Metropolitana do Vale do Paraíba e Litoral Norte e ocupa uma área de 1 099,409 km², da qual 353,9 km² estão em perímetro urbano.</h3>
+    </div></div>
+      <div class="item2"><img  src="img_tur/arco.png" alt="" class="imagem-direita"></div>
     </div>
-    <form class="form-inline">
-      <input type="text" class="input-small" placeholder="Email">
-      <input type="password" class="input-small" placeholder="Password">
-      <label class="checkbox">
-        <input type="checkbox"> Remember me
-      </label>
-      <button type="submit" class="btn">Sign in</button>
-    </form>
-    <i class="icon-star"></i>
 
-    <a href="#" class="btn btn-large btn-primary disabled">Primary link</a>
-<a href="#" class="btn btn-large disabled">Link</a>
-  </body>
+    <h1 aling="center" class="titulo-principal">Explore os possiveies locais para visitar</h1>
+
+    <div class="galeria-links">
+      <!-- Imagem 1 que leva para o Site A -->
+      <a href="Pqdcidad.html">
+        <img src="img_tur/pqDcidade.png" alt="Descrição da Imagem A">
+        <br>Parque da Cidade Roberto Burle Marx</br>
+      </a>
+
+      <a href="PqAranha.html">
+        <img src="img_tur/aranha.png" alt="Descrição da Imagem A">
+        <br>Parque Vicentina Aranha</br>
+      </a>
+
+      <a href="SantosDumont.html">
+        <img src="img_tur/santosdumont.png" alt="Descrição da Imagem A">
+        <br>Parque Santos Dumont</br>
+      </a>
+
+      <a href="Rvermelho.html">
+        <img src="img_tur/pqrvermelho.png" alt="Descrição da Imagem A">
+        <br>Parque Ribeirão Vermelho</br>
+      </a>
+    </div>
+    
+</aside>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3>Sobre Nós</h3>
+      <p>ETEC SJC prof Ilza de Nascimento Pintus</p>
+      <p>Feito por Emily Beatris M. S.</p>
+    </div>
+</footer>
+
+</body>
 </html>
